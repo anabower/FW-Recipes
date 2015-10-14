@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Google Chrome disk image and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.googlechrome</string>
+    <string>com.github.pcsd.fwpkg.googlechrome</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -76,6 +76,21 @@
                         </dict>
                     </array>
                 </dict>
+            </dict>
+        </dict>
+	<dict>
+            <key>Processor</key>
+            <string>com.github.johncclayton.filewave.FWTool/FileWaveImporter</string>
+            <key>Arguments</key>
+            <dict>
+                <key>fw_import_source</key>
+                <string>%pkg_path%</string>
+
+                <key>fw_fileset_name</key>
+                <string>%NAME% - %version%</string>
+
+                <key>fw_fileset_group</key>
+                <string>AutoPKG Import</string>
             </dict>
         </dict>
     </array>
