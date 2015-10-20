@@ -86,7 +86,7 @@
             <key>Arguments</key>
             <dict>
                 <key>fw_import_source</key>
-                <string>%NAME%-%version%.pkg</string>
+                <string>%pkgpath%</string>
 
                 <key>fw_fileset_name</key>
                 <string>%NAME% - %version%</string>
