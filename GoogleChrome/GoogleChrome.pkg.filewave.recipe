@@ -86,7 +86,7 @@
             <key>Arguments</key>
             <dict>
                 <key>fw_import_source</key>
-                <string>%pkgroot%/%pkgname%</string>
+                <string>%pkgroot%/%NAME%-%version%</string>
 
                 <key>fw_fileset_name</key>
                 <string>%NAME% - %version%</string>
