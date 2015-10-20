@@ -1,0 +1,6 @@
+#!/bin/sh
+# Remove Auto Update Installers
+
+rm -rf /Applications/Google\ Chrome/Contents/Versions/*/Google\ Chrome\ Framework/Frameworks/KeystoneRegistration.framework/Resources/Keystone.tbz
+
+rm -rf /Applications/Google\ Chrome/Contents/Versions/*/Google\ Chrome\ Framework/Frameworks/KeystoneRegistration.framework/Resources/ksinstall
